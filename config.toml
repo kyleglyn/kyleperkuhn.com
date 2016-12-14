@@ -4,11 +4,11 @@ languageCode = "en-us"
 theme = "hugo-identity-theme"
 title = "Kyle Perkuhn"
 [params]
-appletouchicon = "apple-touch-icon-precomposed.png"
+appletouchicon = "/forestryio/images/apple-icon-180x180.png"
 avatar = "kyle.jpg"
 background = "bg1.jpg"
 email = "your@email.com"
-favicon = "favicon.ico"
+favicon = "/forestryio/images/favicon-32x32.png"
 name = "Kyle Perkuhn"
 position = "Product Manager"
 [params.contact]
