@@ -25,10 +25,10 @@ icon = "fa-linkedin"
 link = "https://www.linkedin.com/in/kyleperkuhn"
 title = "LinkedIn"
 [[params.social]]
-icon = "fa-facebook"
-link = "https://www.facebook.com/kyle.perkuhn"
-title = "Facebook"
-[[params.social]]
 icon = "fa-twitter"
 link = "https://twitter.com/KylePerkuhn"
 title = "Twitter"
+[[params.social]]
+icon = "fa-github"
+title = "GitHub"
+link = "https://github.com/kyleperkuhn"
