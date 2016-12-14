@@ -7,12 +7,18 @@ title = "Kyle Perkuhn"
 appletouchicon = "/forestryio/images/apple-icon-180x180.png"
 avatar = "kyle.jpg"
 background = "bg1.jpg"
+company = "Thunderhead Engineering"
 email = "your@email.com"
 favicon = "/forestryio/images/favicon-32x32.png"
+location = "Austin, TX"
 name = "Kyle Perkuhn"
+<<<<<<< HEAD
 company = "Thunderhead Engineering"
 position = "Product Manager"
 location = "Austin, TX"
+=======
+position = "Product Manager"
+>>>>>>> origin/master
 [params.contact]
 buttonText = "Send"
 emailPlaceholder = "Email"
