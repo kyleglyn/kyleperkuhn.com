@@ -2,7 +2,7 @@ baseurl = "http://kyleperkuhn.com"
 googleAnalytics = "UA-XXXXX-Y"
 languageCode = "en-us"
 theme = "hugo-identity-theme"
-title = "Hugo Identity Theme"
+title = "Kyle Perkuhn"
 [params]
 appletouchicon = "apple-touch-icon-precomposed.png"
 avatar = "kyle.jpg"
