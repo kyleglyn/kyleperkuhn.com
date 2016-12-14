@@ -14,7 +14,7 @@ position = "Product Manager"
 [params.contact]
 buttonText = "Send"
 emailPlaceholder = "Email"
-enable = true
+enable = false
 formTitle = "Email Me"
 messagePlaceholder = "Message"
 namePlaceholder = "Name"
