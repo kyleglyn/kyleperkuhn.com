@@ -30,5 +30,5 @@ link = "https://twitter.com/KylePerkuhn"
 title = "Twitter"
 [[params.social]]
 icon = "fa-github"
-title = "GitHub"
 link = "https://github.com/kyleperkuhn"
+title = "GitHub"
