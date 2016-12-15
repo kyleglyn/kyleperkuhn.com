@@ -26,7 +26,6 @@ build:
     # at the right place in the workspace tree
     - hugo-build:
         version: 0.17
-		prod_branches: master
         flags: --buildDrafts=true
     deploy:
       steps:
