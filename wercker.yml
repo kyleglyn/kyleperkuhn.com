@@ -24,7 +24,14 @@ build:
   steps:
     # Sets the go workspace and places you package
     # at the right place in the workspace tree
-    - arjen/hugo-build:
-        version: "0.14"
-        theme: herring-cove
+    - hugo-build:
+        version: "0.17"
+		prod_branches: master
         flags: --buildDrafts=true
+    deploy:
+      steps:
+        - s3sync:
+            key_id: $KEY
+            key_secret: $SECRET
+            bucket_url: $URL
+            source_dir: _site/
