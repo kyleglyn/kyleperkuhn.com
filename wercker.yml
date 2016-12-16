@@ -25,12 +25,12 @@ build:
     # Sets the go workspace and places you package
     # at the right place in the workspace tree
     - hugo-build:
-        version: 0.17
+        version: "0.17"
         flags: --buildDrafts=true
-    deploy:
-      steps:
-        - s3sync:
-            key_id: $KEY
-            key_secret: $SECRET
-            bucket_url: $URL
-            source_dir: _site/
+deploy:
+	steps:
+	- s3sync:
+		key_id: $KEY
+		key_secret: $SECRET
+		bucket_url: $URL
+		source_dir: _site/
